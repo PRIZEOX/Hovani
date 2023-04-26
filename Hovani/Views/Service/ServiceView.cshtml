@@ -1,0 +1,14 @@
+﻿@model List<Service>
+@{
+    ViewData["Title"] = "ServiceView";
+}
+
+<h1>ServiceView</h1>
+@foreach(var item in Model)
+{
+    <p>@item.Id</p>
+    <p>@item.Name</p>
+    <p>@item.price</p>
+    <p>@item.Sex</p>
+}
+
