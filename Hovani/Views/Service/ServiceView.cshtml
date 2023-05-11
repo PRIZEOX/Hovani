@@ -1,4 +1,4 @@
-﻿@model List<Service>
+﻿@model List<ServiceModel>
 @{
     ViewData["Title"] = "ServiceView";
 }
@@ -7,8 +7,8 @@
 @foreach(var item in Model)
 {
     <p>@item.Id</p>
-    <p>@item.Name</p>
+    <p>@item.name</p>
     <p>@item.price</p>
-    <p>@item.Sex</p>
+    <p>@item.sex</p>
 }
 
